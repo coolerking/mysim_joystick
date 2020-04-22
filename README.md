@@ -4,7 +4,7 @@ Donkey Simulator を操作する際、PCのキーボードもしくはWebコン�
 こととなりますが、本リポジトリのdonkeycar アプリケーション(ドキュメントでは`mycar`ディレクトリ)を
 使用することで、ジョイスティックによる操作が可能となります。
 
-* [動作動画](https://youtu.be/4EWGBzdmPWs)
+[![Donkey Sim with F710 Joystick](https://img.youtube.com/vi/4EWGBzdmPWs/0.jpg)](https://www.youtube.com/watch?v=4EWGBzdmPWs)
 
 ## 前提
 
