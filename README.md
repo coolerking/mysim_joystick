@@ -192,3 +192,7 @@ python check_key_binding.py
 pygame パッケージは、画面を用いたゲームアプリケーションを開発するための総合パッケージです。Donkey Simulatorで使用する場合は、画面はシミュレータ側のプログラムを使用するため pygame内のjoystickモジュールのみを使用することになります。
 
 しかし、pygameパッケージを使用する際の初期化処理を実行すると、Ctrl+Cを含むキーボード割り当てはすべて`pygame.event` がフックするためpygameフレームワーク外で使用することができません。このため本リポジトリでは　Ctrl+C のイベントが発生した場合pygameを終了し `keyboardInterrupt` 例外を`raise`しています。
+
+## ライセンス
+
+[MITライセンス](./LICENSE) 準拠とします。
