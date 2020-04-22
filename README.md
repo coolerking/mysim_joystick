@@ -23,6 +23,7 @@ Donkey Simulator を操作する際、PCのキーボードもしくはWebコン�
 ```bash
 conda activate donkey
 pip install pygame
+```
 
 * [GitHub:tawnkramer/gym-donkeycar](https://github.com/tawnkramer/gym-donkeycar/releases) からWindows用Donkey Simulatorバイナリを展開し、適当なフォルダ(ここでは`C:\\Users\\user_name\\projects\\DonkeySimWin\\donkey_sim.exe`として説明)に格納する
 
