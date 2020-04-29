@@ -130,3 +130,5 @@ dmypy.json
 
 PyGameJoystick.log
 unitylog.txt
+
+data/tub*
