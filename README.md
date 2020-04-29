@@ -49,8 +49,7 @@ cd mysim_joystick
 ```
 
 * `myconfig.py`を編集する
-
- * （オプション）`USE_JOYSTICK_AS_DEFAULT` 行をコメントアウトして `True` に変更する
+* （オプション）`USE_JOYSTICK_AS_DEFAULT` 行をコメントアウトして `True` に変更する
 
  ```python
  USE_JOYSTICK_AS_DEFAULT = True
@@ -58,7 +57,7 @@ cd mysim_joystick
 
  > 上記設定を行うと `--js` オプションを付けなくてもデフォルトでジョイスティック操作となる。
 
- * `CONTROLLER_TYPE` 行をコメントアウトして `'F710_pygame'` に変更する
+* `CONTROLLER_TYPE` 行をコメントアウトして `'F710_pygame'` に変更する
 
  ```python
  CONTROLLER_TYPE='F710_pygame'
@@ -66,19 +65,19 @@ cd mysim_joystick
 
  > 本リポジトリのコードには上記のタイプのみ対応している。
 
- * `DONKEY_GYM` 行をコメントアウトして `True` に変更する
+* `DONKEY_GYM` 行をコメントアウトして `True` に変更する
 
  ```python
  DONKEY_GYM = True
  ```
 
- * `DONKEY_SIM_PATH` 行をコメントアウトして `donkey_sim.exe` が存在するパスに変更する
+* `DONKEY_SIM_PATH` 行をコメントアウトして `donkey_sim.exe` が存在するパスに変更する
 
  ```python
  DONKEY_SIM_PATH="C:\\Users\\hogehoge\\projects\\DonkeySimWin\\donkey_sim.exe"
  ```
 
-  * （オプション）`GYM_CONF` 行をコメントアウトして表示車両をカスタマイズする（以下は例）
+* （オプション）`GYM_CONF` 行をコメントアウトして表示車両をカスタマイズする（以下は例）
 
   ```python
   GYM_CONF={"body_style": "bare", "body_rgb": (128, 9, 100), "car_name": "kit", "font_size": 100}
@@ -90,9 +89,9 @@ cd mysim_joystick
 
 修正前：
 
-```python        
+```python
     from donkeycar.parts.controller import get_js_controller
-    
+
     ctr = get_js_controller(cfg)
 ```
 
