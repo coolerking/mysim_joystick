@@ -190,7 +190,7 @@ conda activate donkey
 python check_key_binding.py
 ```
 
-ボタン、axis、hatの割当を確認したら、本リポジトリの`parts/controller.py`を参考に独自のマッピングをせっていしたパーツクラスを作成してください。
+ボタン、axis、hatの割当を確認したら、本リポジトリの`parts/controller.py`を参考に独自のマッピングを設定したパーツクラスを作成してください。
 
 ### 注意
 
