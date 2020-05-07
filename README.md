@@ -12,6 +12,8 @@ Donkey Simulator を操作する際、PCのキーボードもしくはWebコン�
 * pygame パッケージはv1.9.7とする
 * ジョイスティックは、Logicool Wireless GamePad F710 (XInputモード)とする
 
+> Elecom社製 JC-U4113 ワイヤレスジョイパッド(XInputモード)での動作も確認しました。F710と同じ設定で動作します。
+
 ## インストール
 
 * [donkeycar ドキュメント:Install Donkeycar on Windows](http://docs.donkeycar.com/guide/host_pc/setup_windows/) に従い、Windows PC上にdonkeycarパッケージを導入する
@@ -174,6 +176,10 @@ Ctrl+Cキーを2回押下する
 ## 参考
 
 ### F710 以外のジョイスティックを使用したい場合
+
+F710設定のままで、Elecom社製 JC-U4113 ワイヤレスジョイパッド(XInputモード)での動作を確認しています。おそらくXInput互換ゲームパッドはF710設定のままでも動作する可能性があります。
+
+動作しない場合やXInput非互換の場合は、ボタンやアナログジョイスティック、十字キー定義や機能割当を個別に修正した `parts/controller.py` を作成する必要があります。
 
 対象のジョイスティックをWindows PCへ接続し、ドライバインストールを完了させた後、以下のコマンドを実行してボタンやアナログスティック、トリガボタン、十字キーの`pygame`上でのマッピング情報を取得します。
 
