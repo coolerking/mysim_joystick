@@ -10,7 +10,7 @@ Donkey Simulator を操作する際、PCのキーボードもしくはWebコン�
 
 * donkeycar パッケージのバージョンはv3.1.2とする
 * pygame パッケージはv1.9.7とする
-* ジョイスティックは、Logicool Wireless GamePad F710 とする
+* ジョイスティックは、Logicool Wireless GamePad F710 (XInputモード)とする
 
 ## インストール
 
